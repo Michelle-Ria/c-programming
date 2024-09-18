@@ -1,0 +1,16 @@
+//finding the perimeter of a rectangle
+#include<stdio.h>
+int main()
+{
+    int l,w,sum, product ;
+printf("Enter the value of length: ");
+scanf("%d",&l );
+printf("\nEnter the value of width:");
+scanf("%d",&w);
+
+sum=l + w;
+product= sum*2 ;
+
+printf("\nThe perimeter of this rectangle is %d:",product);
+return 0;
+}
