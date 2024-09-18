@@ -1,0 +1,42 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+    printf("Arithmetic operations");
+    printf("\n********** **********");
+    
+    int a, b, c, ans1, ans2, ans3, ans4, ans5;
+    printf("\nFor addition");
+    printf("\n**");
+    printf("\nEnter the value a:");
+    scanf("%d", &a);
+    printf("\nEnter the value b:");
+    scanf("%d", &b);
+    ans1= a+b ;
+    printf("\n The sum of your values is %d", ans1);
+    
+    printf("\nFor subtraction");
+    printf("\n**");
+        ans2= a-b ;
+    printf("\n The subtraction result of your values is %d", ans2);
+    
+      printf("\nFor multiplication");
+    printf("\n**");
+       ans3= a*b ;
+    printf("\n The product of your values is %d", ans3);
+    
+       printf("\nFor division");
+    printf("\n**");
+       ans4= a/b ;
+    printf("\n The  result of your values is %d", ans4);
+    
+     printf("\nFor modular division");
+    printf("\n**");
+    ans5= a%b ;
+    printf("\n The modular division result(remainder) of your values is %d", ans5);
+    
+  
+    return 0;
+   
+}
